@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: rgba(255, 255, 255,0.2);
+
+}
+
+.navbar{
+    width : auto;
+    float: right;
+    margin-top: 8px;
+}
+
+.nav-items{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    color: #C0C0C0 ! important; 
+    text-decoration: none;
+    font-size: 1.5vw;
+	z-index: 1;
+}
+
+a:hover{
+    color:grey;
+    transition:0.5s;
+
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+	min-height: 100vh;
+}
+.logo {
+	width: 20%;
+	position: absolute;
+	padding: 6% 42%;
+}
+
+
+.pad{
+	margin-top:40%;
+}
+
+.s-box {
+	width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 40px;
+	text-align: center;
+}
+.s-box .s-input {
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+
+.s-btn {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #666;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline;
+	margin-right: 30px;
+	margin-left: 30px;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+}
+
+/*--------------------------advanced---------------*/
+
+.advanced-g{
+	color: #d93025;
+    font-size: 20px;
+	margin:1%
+}
+
+.logo2{
+	width:10%;
+	margin:2%
+}
